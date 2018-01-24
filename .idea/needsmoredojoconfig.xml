@@ -12,6 +12,9 @@
         <option value="doh/main(doh" />
       </list>
     </option>
+    <option name="dojoSourcesDirectory" value="" />
+    <option name="projectSourcesDirectory" value="" />
+    <option name="setupWarningDisabled" value="true" />
     <option name="version" value="0.7" />
   </component>
 </project>
