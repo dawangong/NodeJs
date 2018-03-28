@@ -1,7 +1,14 @@
 #### NodeJs
 node.js的学习
 
-###### 安装如下依赖让node支持es6
+###### 进行如下操作让node支持es6
+
+```
+创建 .babelrc 文件 内容如下：
+{
+  "presets": ["es2015", "stage-0"]
+}
+```
 
 ```
 npm install babel-cli --save
