@@ -1,5 +1,6 @@
-let http = require('http');
-let url = require('url');
+import http from 'http';
+import url from 'url';
+
 import Router from './module/Router';
 http.createServer((request, response) => {
     response.writeHead(200,{'content-type':'html/text;charset=utf-8'});

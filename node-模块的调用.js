@@ -1,5 +1,6 @@
-let http = require('http');
+import http from 'http';
 import module from './module/module';
+
 http.createServer((request, response) => {
     response.writeHead(200,{'content-type':'text/html;charset=utf-8'});
     if (request.url !== 'favicon.ico'){

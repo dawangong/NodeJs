@@ -25,3 +25,7 @@ npm install babel-preset-es2015 --save
 ```
 npm install babel-preset-stage-0 --save
 ```
+
+```
+指令变化: node xxx  ---->  babel-node xxx
+```
