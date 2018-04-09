@@ -4,7 +4,7 @@ import method from './module/method';
 
 http.createServer((request, response) => {
     response.writeHead(200,{'Content-Type':'text/html;charset=utf-8'});
-    if (request.url !== 'favicon.ico'){
+    if (request.url !== '/favicon.ico'){
 		new method().speak(response);
     }
     response.end('');

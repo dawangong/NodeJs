@@ -3,7 +3,7 @@ import http from 'http';
 
 http.createServer((request, response) => {
     response.writeHead(200,{'Content-Type':'text/html;charset=utf-8'});
-    if (request.url !== 'favicon.ico'){
+    if (request.url !== '/favicon.ico'){
         response.write('you are successful！');
 	 //    response.end('you are successful！');
         response.end('');//防止二次请求

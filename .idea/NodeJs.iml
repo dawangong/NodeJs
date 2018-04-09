@@ -12,5 +12,8 @@
     <orderEntry type="library" name="@types/abs" level="application" />
     <orderEntry type="library" name="@types/ace" level="application" />
     <orderEntry type="library" name="@types/express" level="application" />
+    <orderEntry type="library" name="angular-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="node-DefinitelyTyped" level="application" />
   </component>
 </module>
